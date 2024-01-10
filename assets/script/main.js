@@ -98,7 +98,7 @@ var Sub = document.getElementById("subject").value;
 var email = document.getElementById("email").value;
 var message = document.getElementById("message").value;
 var Body = "name:" + name +
-  "<br/> subject:"+subject+ "<br/> email:" + email + "<br/> message:" 
+  "<br/> subject:"+Sub+ "<br/> email:" + email + "<br/> message:" 
   + message ;
  Email.send({
 
