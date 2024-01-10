@@ -521,7 +521,7 @@ body {
   background-color: var(--color-bg-secondary);
   box-shadow: var(--box-shadow);
   padding: 3rem 5rem;
-  width: 80%;
+  width: 100%;
   max-width: 50rem;
   text-align: center;
   justify-self: center;
