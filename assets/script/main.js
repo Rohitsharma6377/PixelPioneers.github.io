@@ -27,7 +27,6 @@ function changeIcon() {
     navToggle.classList.replace("ri-close-line", "ri-menu-3-line");
   }
 }
-
 // Testimonial Slide
 
 const testimonialSlide = new Swiper(".testimonial__wrapper", {
@@ -38,8 +37,8 @@ const testimonialSlide = new Swiper(".testimonial__wrapper", {
   grabCursor: true,
   slidesPerView: 1,
   coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
+    rotate: 150,
+    stretch: 10,
     depth: 100,
     modifier: 1,
     slideShadows: true,
@@ -55,6 +54,7 @@ const testimonialSlide = new Swiper(".testimonial__wrapper", {
     },
   },
 });
+
 
 // header scroll animation
 window.addEventListener("scroll", () => {
