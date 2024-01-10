@@ -560,7 +560,7 @@ body {
 .testimonial__wrapper .swiper-pagination-bullet {
   background-color: var(--color-text);
   border-radius: 0;
-  width: 3rem;
+  width: 4rem;
   height: 0.5rem;
 }
 
@@ -572,7 +572,7 @@ body {
 --------------------------------------------------------------*/
 .contact__wrapper {
   border-top: 1px solid var(--color-border);
-  padding-top: 3rem;
+  padding-top: 4rem;
   text-align: center;
 }
 
