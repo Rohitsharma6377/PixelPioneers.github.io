@@ -37,8 +37,8 @@ const testimonialSlide = new Swiper(".testimonial__wrapper", {
   grabCursor: true,
   slidesPerView: 1,
   coverflowEffect: {
-    rotate: 150,
-    stretch: 10,
+    rotate: 50,
+    stretch: 0,
     depth: 100,
     modifier: 1,
     slideShadows: true,
@@ -100,7 +100,6 @@ var message = document.getElementById("message").value;
 var Body = "name:" + name +
   "<br/> subject:"+subject+ "<br/> email:" + email + "<br/> message:" 
   + message ;
-    console.log(Body);
  Email.send({
 
   SecureToken : "69be9e8a-ee3b-4c21-b05e-f7a1905cacea ",
